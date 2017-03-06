@@ -328,3 +328,7 @@ footer .fa {
 #copyright a:hover {
   color: #FF0;
 }
+
+textarea {
+    resize: none;
+}
