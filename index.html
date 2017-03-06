@@ -18,6 +18,20 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
 
 	<link href="/images/favicon.ico" rel="icon" type="image/x-icon" />
+
+	<script type="text/javascript">
+		function changeBGColor() {
+			var userInput = confirm("Would you like to change the page color?");
+			if (userInput === true) {
+					var color = prompt("What color?");
+					document.getElementById("home").style.backgroundColor = color;
+			} else {
+					alert("You will keep the default color.");
+					return false;
+			}
+			return true;
+		}
+	</script>
 </head>
 <body>
 
@@ -83,6 +97,10 @@
 <script src="js/nivo-lightbox.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/custom.js"></script>
+
+<script type="text/javascript">
+	changeBGColor();
+</script>
 
 </body>
 </html>
