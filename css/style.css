@@ -122,8 +122,8 @@ hr {
 
 /* home section */
 #home {
-  /*background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;*/
-	background-color: black;
+  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+	/*background-color: black;*/
 	-webkit-background-size: cover;
   background-size: cover;
   background-position: center;
